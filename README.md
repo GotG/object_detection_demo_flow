@@ -20,7 +20,7 @@ To use your own images for training read below:
 
 If you need help resizing before annotating, you can use the notebook below to resize on your google drive:
 
-https://colab.research.google.com/drive/1t1voebiZ42Bu7_3IEIWdZEURw9o3J7Cq
+https://drive.google.com/open?id=1t1voebiZ42Bu7_3IEIWdZEURw9o3J7Cq
 
 
 ### Step 2: Annotate the images
