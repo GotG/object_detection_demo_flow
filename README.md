@@ -1,6 +1,6 @@
 # How to train an Object Detector using Mobilenet SSD v2
 
-If you want to get an idea about how this works before training diving right in, run the following Colab Notebook that will train on images included in this repo:
+If you want to get an idea about how this works before diving right in, run the following Colab Notebook that will train on images included in this repo:
 
 https://drive.google.com/open?id=1SvTS8i3ea1Xj6DqpYZwSS5ibyvoyj5fi
 
