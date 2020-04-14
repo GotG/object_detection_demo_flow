@@ -20,7 +20,8 @@ To use your own images for training read below:
 
 If you need help resizing before annotating, you can use the notebook below to resize on your google drive:
 
-https://drive.google.com/open?id=1N3OvRvhJ8P7veLCz3TO2z3U33H8-skM
+'https://colab.research.google.com/drive/1N3OvRvhJ8P7veLCz3TO2z3U33H8-skM_'
+
 
 ### Step 2: Annotate the images
 - to annotate the images use https://github.com/tzutalin/labelImg
