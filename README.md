@@ -1,13 +1,13 @@
 # How to train an Object Detector using Mobilenet SSD v2
 
-If you want to get an idea about how this works before training diving right in, run the following Colab Notebook that will train on images included in this repo:
+If you want to get an idea about how this works before diving right in, run the following Colab Notebook that will train on images included in the repo cloned in the notebook:
 
 https://drive.google.com/open?id=1SvTS8i3ea1Xj6DqpYZwSS5ibyvoyj5fi
 
 
 To use your own images for training read below:
 
-### Step 1: Find images of the objects 
+### Step 1: Find images of the objects
 
 - you can take photos or download them from google images
 - for the three fruit model trained as an example in this repo we have 240 training images. the number of images needed depends on the type and number of objects you wish to detect. for simple objects in simple scenes even a few tens suffice
@@ -20,7 +20,7 @@ To use your own images for training read below:
 
 If you need help resizing before annotating, you can use the notebook below to resize on your google drive:
 
-https://drive.google.com/open?id=1N3OvRvhJ8P7veLCz3TO2z3U33H8-skM_
+https://drive.google.com/open?id=1t1voebiZ42Bu7_3IEIWdZEURw9o3J7Cq
 
 
 ### Step 2: Annotate the images
