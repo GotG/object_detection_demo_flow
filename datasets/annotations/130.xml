@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>130.xml</filename>
+	<path>C:\Users\cevanou\Documents\datasets\annotations\130.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>680</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>107</ymin>
+			<xmax>580</xmax>
+			<ymax>397</ymax>
+		</bndbox>
+	</object>
+</annotation>

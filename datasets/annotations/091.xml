@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>091.xml</filename>
+	<path>C:\Users\cevanou\Documents\datasets\annotations\091.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>74</ymin>
+			<xmax>540</xmax>
+			<ymax>518</ymax>
+		</bndbox>
+	</object>
+</annotation>

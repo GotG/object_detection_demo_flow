@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>063.xml</filename>
+	<path>C:\Users\cevanou\Documents\datasets\annotations\063.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>634</width>
+		<height>476</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>55</ymin>
+			<xmax>588</xmax>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+</annotation>

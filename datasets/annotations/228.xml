@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>228.xml</filename>
+	<path>C:\Users\cevanou\Documents\datasets\annotations\228.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>195</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>20</ymin>
+			<xmax>176</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+</annotation>

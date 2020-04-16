@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>297.xml</filename>
+	<path>C:\Users\cevanou\Documents\datasets\annotations\297.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>390</width>
+		<height>254</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>174</xmin>
+			<ymin>20</ymin>
+			<xmax>364</xmax>
+			<ymax>199</ymax>
+		</bndbox>
+	</object>
+</annotation>
