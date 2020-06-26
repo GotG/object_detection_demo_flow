@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pic</folder>
+	<filename>0755.jpeg</filename>
+	<path>/Users/wenjinli/Desktop/Luxonis/luxonis-ml/test_object_detection_demo/data/medmask_voc/pic/0755.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>303</width>
+		<height>166</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bad</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>105</xmin>
+			<ymin>1</ymin>
+			<xmax>196</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+</annotation>
