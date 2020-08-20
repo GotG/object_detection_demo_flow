@@ -43,10 +43,10 @@ def xml_to_csv(path):
                 int(root.find("size")[0].text),
                 int(root.find("size")[1].text),
                 tag_name.text,
-                int(bbox[0].text),
                 int(bbox[1].text),
-                int(bbox[2].text),
                 int(bbox[3].text),
+                int(bbox[0].text),
+                int(bbox[2].text),
             )
             xml_list.append(value)
     column_name = [
