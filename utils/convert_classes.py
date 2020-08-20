@@ -44,6 +44,12 @@ def convert_class(regions):
         box['00'], box['01'] = regions['left_hole']['10'], regions['left_hole']['11']
         box['10'], box['11'] = regions['right_hole']['00'], regions['right_hole']['01']
         converted['center'] = box
+    if 'face' in regions:
+        # right_side
+        box = {}
+        box['00'], box['01'] = regions['face']['00'], regions['face']['01']
+        box['10'], box['11'] = regions['face']['10'], regions['face']['11']
+        converted['face'] = box
 
     return converted
 
@@ -105,14 +111,16 @@ if __name__ == "__main__":
 
     # Update '_via_attributes'
     print("old", dat['_via_attributes']['region']['type']['options'])
-    dat[u'_via_attributes'][u'region'][u'type'][u'default_options'] = {u'center': True}
-    dat[u'_via_attributes'][u'region'][u'type'][u'options'] = {u'left_side': u'', u'right_side': u'', u'center': u''}
+    # dat[u'_via_attributes'][u'region'][u'type'][u'default_options'] = {u'center': True}
+    dat[u'_via_attributes'][u'region'][u'type'][u'options'] = \
+            {u'left_side': u'', u'right_side': u'', u'center': u'', u'face': u''}
     print("new", dat['_via_attributes']['region']['type']['options'])
 
     for img in dat[u'_via_img_metadata']:
         # [u'regions', u'size', u'file_attributes', u'filename']
         new_regions = update_regions(dat['_via_img_metadata'][img]['regions'])
-        if len(new_regions) != len(dat['_via_img_metadata'][img]['regions']):
+        if len(dat['_via_img_metadata'][img]['regions']) != 0 and \
+                len(new_regions) != len(dat['_via_img_metadata'][img]['regions']) + 1:
             print("Regions decreased: {}".format(img))
         dat[u'_via_img_metadata'][img][u'regions'] = new_regions
 
