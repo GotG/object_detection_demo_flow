@@ -40,8 +40,8 @@ def xml_to_csv(path):
             classes_names.append(class_name)
             value = (
                 root.find("filename").text,
-                int(root.find("size")[0].text),
-                int(root.find("size")[1].text),
+                int(root.find("size").find("width").text),
+                int(root.find("size").find("height").text),
                 tag_name.text,
                 int(bbox[1].text),
                 int(bbox[3].text),
